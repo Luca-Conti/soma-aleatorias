@@ -1,9 +1,9 @@
 let DMSS = parseInt(Math.random() * 4 + 1)
 
 function numero1() {
-    let primeiroNumero = document.getElementById('primeiroNumero').value
+    let primeiroNumero = Number(document.getElementById('primeiroNumero').value)
     console.log(`${primeiroNumero}`)
-    let segundoNumero = document.getElementById('segundoNumero').value
+    let segundoNumero = Number(document.getElementById('segundoNumero').value)
     console.log(`${segundoNumero}`)
 
 if (DMSS == 1) {
