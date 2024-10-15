@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 
-h1 {
+.titulo {
     text-align: center;
     font-size: 3.75rem;
     color: white;
@@ -37,6 +37,7 @@ h1 {
     padding: 3%;
     width: 39%;
     background-color: #48c1dc;
+    font-size: 1.5rem;
 }
 
 .caixa-de-pergunta2 {
@@ -63,4 +64,20 @@ h1 {
 
 .botao1:hover {
     background-color: #1d8da6;
+}
+
+@media (max-width: 1300px) {
+    .conterner-caixa-de-pergunta {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .titulo {
+        width: auto;
+    }
+    .botao1 {
+        font-size: 1rem;
+        width: auto; 
+    }
+    
 }
