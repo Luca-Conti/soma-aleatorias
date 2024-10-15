@@ -1,6 +1,11 @@
+body {
+    background-color: black;
+}
+
 h1 {
     text-align: center;
     font-size: 3.75rem;
+    color: white;
 }
 
 .conterner {
@@ -31,6 +36,7 @@ h1 {
     border-radius: 16px;
     padding: 3%;
     width: 39%;
+    background-color: #48c1dc;
 }
 
 .caixa-de-pergunta2 {
@@ -47,9 +53,14 @@ h1 {
     border-radius: 16px;
     padding: 3%;
     width: 39%;
+    background-color: #22D4FD;
 }
 
 
 .conterner-caixa-de-pergunta-de-dentro {
     width: 20%;
+}
+
+.botao1:hover {
+    background-color: #1d8da6;
 }
