@@ -3,8 +3,18 @@ h1 {
     font-size: 3.75rem;
 }
 
-div {
-    background-color: #b2b2b2;
-    border-radius: 18px;
-    padding: 0%, 0%, 2%;
+.conterner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.caixa-de-pergunta {
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    
+    width: 10%;
+    padding: 1.5%;
+    font-size: 25px;
+    background-color: #22D4FD;
 }
