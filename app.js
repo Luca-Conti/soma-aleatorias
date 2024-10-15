@@ -31,31 +31,6 @@ if (DMSS == 1) {
 
 
 let exibir = ``
-
-//let soma = numero1() + numero2();
-
-    
-
-
-  //  if (DMSS == 1) {
-  //          let soma =  
-  //          exibir =(`a soma de ${numero1()} com ${numero2()} deu ${soma}`);
-  //          exbirMensagemInicial(exibir)
-  //      } else if (DMSS == 2) {
-  //          let subritair = numero1() - numero2()
-  //          exibir =(`a subritação de ${numero1()} com ${numero2()} deu ${subritair}`);
-  //          exbirMensagemInicial(exibir)
-  //          } else  if (DMSS == 3) {
-  //              let multiplicado = numero1() * numero2()
-  //              exibir =(`a multiplicação de ${numero1()} com ${numero2()} deu ${multiplicado}`);
-  //              exbirMensagemInicial(exibir)
-  //              } else {
-  //                  let dividido = numero1() / numero2()
-  //                  exibir =(`a divisão de ${numero1()} com ${numero2()} deu ${dividido}`);
-  //                  exbirMensagemInicial(exibir)
-  //              }
-
-
 function exbirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
