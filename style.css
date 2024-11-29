@@ -50,11 +50,13 @@ body {
     background-color: #22D4FD;
 }
 
-.botao2 {
+.reiniciar {
     border-radius: 16px;
-    padding: 3%;
+    padding: 1.5%;
     width: 39%;
-    background-color: #22D4FD;
+    background-color: #5e5e5e;
+    font-size: 1.5rem;
+    cursor: not-allowed;
 }
 
 
