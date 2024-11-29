@@ -53,7 +53,7 @@ function exbirMensagemInicial() {
         document.getElementById('primeiroNumero').value = '';
         document.getElementById('segundoNumero').value = '';
         DMSS = parseInt(Math.random() * 4 + 1)
-        innerHTML = '<h1 class="titulo">DIGITE O NUMERO ALEATORIO</h1>'
+        innerHTML = '<h1 class="titulo">DIGITE O NUMERO ALEATORIO</h1>';
 
         alterarStatus()
  }
